@@ -1,0 +1,92 @@
+{
+    "pagina": 1,
+    "total_de_paginas": 1,
+    "registros": 12,
+    "total_de_registros": 12,
+    "produto_servico_resumido": [
+        {
+            "codigo": "1000",
+            "codigo_produto": 5601666007,
+            "codigo_produto_integracao": "",
+            "descricao": "Mouse sem fio Microsoft",
+            "valor_unitario": 150
+        },
+        {
+            "codigo": "109325141",
+            "codigo_produto": 5601666028,
+            "codigo_produto_integracao": "",
+            "descricao": "Game Wii Party - Wii",
+            "valor_unitario": 79.9
+        },
+        {
+            "codigo": "110007405",
+            "codigo_produto": 5601666009,
+            "codigo_produto_integracao": "",
+            "descricao": "Console Oficial Xbox 250GB + Kinect Sensor + Jogo Kinect Adventures + Controle sem fio - Microsoft",
+            "valor_unitario": 1399.9
+        },
+        {
+            "codigo": "110007406",
+            "codigo_produto": 5601666013,
+            "codigo_produto_integracao": "",
+            "descricao": "Console Oficial Xbox 360 4Gb com Kinect - Edição Especial Limitada com 2 Jogos e 1 mês de assinatura",
+            "valor_unitario": 1199
+        },
+        {
+            "codigo": "111904125",
+            "codigo_produto": 5601666021,
+            "codigo_produto_integracao": "",
+            "descricao": "Game Resident Evil 6 - PS3",
+            "valor_unitario": 199.9
+        },
+        {
+            "codigo": "111937242",
+            "codigo_produto": 5601666023,
+            "codigo_produto_integracao": "",
+            "descricao": "Console Nintendo Wii Black Core - RVK",
+            "valor_unitario": 799
+        },
+        {
+            "codigo": "111954114",
+            "codigo_produto": 5601666017,
+            "codigo_produto_integracao": "",
+            "descricao": "Game Uncharted Drakes Fortune - PS3",
+            "valor_unitario": 89.9
+        },
+        {
+            "codigo": "111954120",
+            "codigo_produto": 5601666015,
+            "codigo_produto_integracao": "",
+            "descricao": "Console Oficial PlayStation 3 Slim 250 GB - Sony",
+            "valor_unitario": 1699.9
+        },
+        {
+            "codigo": "147852",
+            "codigo_produto": 5601767162,
+            "codigo_produto_integracao": "147852",
+            "descricao": "Chocolate",
+            "valor_unitario": 0
+        },
+        {
+            "codigo": "147853",
+            "codigo_produto": 5601767645,
+            "codigo_produto_integracao": "147853",
+            "descricao": "Brinquedo",
+            "valor_unitario": 0
+        },
+        {
+            "codigo": "7114168",
+            "codigo_produto": 5601666019,
+            "codigo_produto_integracao": "",
+            "descricao": "Game Resident Evil 5 - Gold Edition - PS3",
+            "valor_unitario": 159
+        },
+        {
+            "codigo": "7457922",
+            "codigo_produto": 5601666026,
+            "codigo_produto_integracao": "",
+            "descricao": "Wii Fit Plus ST-WFW01 para Wii - Smart",
+            "valor_unitario": 339
+        }
+    ]
+}

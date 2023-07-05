@@ -1,0 +1,1199 @@
+[
+    {
+        "cabecalho": {
+            "codigo_pedido_integracao": "6147d89f-3065-4faf-8d3a-e93352f92664",
+            "codigo_cliente": 5601665831,
+            "data_previsao": "5/6/2023"
+        },
+        "informacoes_adicionais": {
+            "codigo_categoria": "1.01.01",
+            "codigo_conta_corrente": 5601665819
+        },
+        "det": [
+            {
+                "produto": {
+                    "codigo_produto": 5601666009,
+                    "quantidade": 1,
+                    "valor_unitario": 1399.9
+                },
+                "ide": {
+                    "codigo_item_integracao": "6c146b33-572f-4ef4-8c8c-9d4aba"
+                }
+            },
+            {
+                "produto": {
+                    "codigo_produto": 5601666015,
+                    "quantidade": 1,
+                    "valor_unitario": 1699.9
+                },
+                "ide": {
+                    "codigo_item_integracao": "617b946e-83f4-4bc5-bb10-7117d2"
+                }
+            },
+            {
+                "produto": {
+                    "codigo_produto": 5601666028,
+                    "quantidade": 1,
+                    "valor_unitario": 79.9
+                },
+                "ide": {
+                    "codigo_item_integracao": "6a8ac758-618e-4a93-b99f-22b4bd"
+                }
+            },
+            {
+                "produto": {
+                    "codigo_produto": 5601666007,
+                    "quantidade": 1,
+                    "valor_unitario": 150
+                },
+                "ide": {
+                    "codigo_item_integracao": "99832975-6d37-4efd-ad10-3acccf"
+                }
+            },
+            {
+                "produto": {
+                    "codigo_produto": 5601666013,
+                    "quantidade": 1,
+                    "valor_unitario": 1199
+                },
+                "ide": {
+                    "codigo_item_integracao": "92a78df5-be6c-4aa7-869b-2042e5"
+                }
+            }
+        ]
+    },
+    {
+        "cabecalho": {
+            "codigo_pedido_integracao": "0d5be853-e7dd-45a1-8f74-009e8e091799",
+            "codigo_cliente": 5601665831,
+            "data_previsao": "5/6/2023"
+        },
+        "informacoes_adicionais": {
+            "codigo_categoria": "1.02.01",
+            "codigo_conta_corrente": 5601665819
+        },
+        "det": [
+            {
+                "produto": {
+                    "codigo_produto": 5601666009,
+                    "quantidade": 1,
+                    "valor_unitario": 1399.9
+                },
+                "ide": {
+                    "codigo_item_integracao": "1f7f2d2d-0421-4007-9c45-555c82"
+                }
+            },
+            {
+                "produto": {
+                    "codigo_produto": 5601666015,
+                    "quantidade": 1,
+                    "valor_unitario": 1699.9
+                },
+                "ide": {
+                    "codigo_item_integracao": "9f6b3784-c558-4d35-8987-f7a89e"
+                }
+            },
+            {
+                "produto": {
+                    "codigo_produto": 5601666028,
+                    "quantidade": 1,
+                    "valor_unitario": 79.9
+                },
+                "ide": {
+                    "codigo_item_integracao": "37d5f8a7-7da9-40a1-aad5-a9a41e"
+                }
+            },
+            {
+                "produto": {
+                    "codigo_produto": 5601666007,
+                    "quantidade": 1,
+                    "valor_unitario": 150
+                },
+                "ide": {
+                    "codigo_item_integracao": "4be8709c-b357-4a7f-a886-a15972"
+                }
+            },
+            {
+                "produto": {
+                    "codigo_produto": 5601666013,
+                    "quantidade": 1,
+                    "valor_unitario": 1199
+                },
+                "ide": {
+                    "codigo_item_integracao": "0bdf3f23-d95e-4071-b31b-8e5a12"
+                }
+            }
+        ]
+    },
+    {
+        "cabecalho": {
+            "codigo_pedido_integracao": "35181af5-5a2f-4496-b2f4-13f3319c0158",
+            "codigo_cliente": 5601665831,
+            "data_previsao": "5/6/2023"
+        },
+        "informacoes_adicionais": {
+            "codigo_categoria": "2.01.02",
+            "codigo_conta_corrente": 5601665819
+        },
+        "det": [
+            {
+                "produto": {
+                    "codigo_produto": 5601666009,
+                    "quantidade": 1,
+                    "valor_unitario": 1399.9
+                },
+                "ide": {
+                    "codigo_item_integracao": "e5d2af4a-07a1-4bfa-adac-9bb038"
+                }
+            },
+            {
+                "produto": {
+                    "codigo_produto": 5601666015,
+                    "quantidade": 1,
+                    "valor_unitario": 1699.9
+                },
+                "ide": {
+                    "codigo_item_integracao": "3ffffa7f-9afc-460b-b2af-96e5a9"
+                }
+            },
+            {
+                "produto": {
+                    "codigo_produto": 5601666028,
+                    "quantidade": 1,
+                    "valor_unitario": 79.9
+                },
+                "ide": {
+                    "codigo_item_integracao": "9aa54cd7-73a2-41f2-b9d2-51ca9f"
+                }
+            },
+            {
+                "produto": {
+                    "codigo_produto": 5601666007,
+                    "quantidade": 1,
+                    "valor_unitario": 150
+                },
+                "ide": {
+                    "codigo_item_integracao": "fd650757-df5c-47f0-8122-dd56f3"
+                }
+            },
+            {
+                "produto": {
+                    "codigo_produto": 5601666013,
+                    "quantidade": 1,
+                    "valor_unitario": 1199
+                },
+                "ide": {
+                    "codigo_item_integracao": "5e02cba5-0ec6-426a-ac8f-9a3f60"
+                }
+            }
+        ]
+    },
+    {
+        "cabecalho": {
+            "codigo_pedido_integracao": "e4e64bd4-cc8e-4012-bb4d-d471bf90886c",
+            "codigo_cliente": 5601665831,
+            "data_previsao": "5/6/2023"
+        },
+        "informacoes_adicionais": {
+            "codigo_categoria": "1.03.26",
+            "codigo_conta_corrente": 5601665819
+        },
+        "det": [
+            {
+                "produto": {
+                    "codigo_produto": 5601666009,
+                    "quantidade": 1,
+                    "valor_unitario": 1399.9
+                },
+                "ide": {
+                    "codigo_item_integracao": "cd0e87b5-d854-49fa-86d4-bc0d45"
+                }
+            },
+            {
+                "produto": {
+                    "codigo_produto": 5601666015,
+                    "quantidade": 1,
+                    "valor_unitario": 1699.9
+                },
+                "ide": {
+                    "codigo_item_integracao": "c3677334-3627-4a86-bb7b-9f83ae"
+                }
+            },
+            {
+                "produto": {
+                    "codigo_produto": 5601666028,
+                    "quantidade": 1,
+                    "valor_unitario": 79.9
+                },
+                "ide": {
+                    "codigo_item_integracao": "94f339a8-c6f7-4e4e-a2e4-209a17"
+                }
+            },
+            {
+                "produto": {
+                    "codigo_produto": 5601666007,
+                    "quantidade": 1,
+                    "valor_unitario": 150
+                },
+                "ide": {
+                    "codigo_item_integracao": "4bbe799d-069d-41ae-b660-20a8c6"
+                }
+            },
+            {
+                "produto": {
+                    "codigo_produto": 5601666013,
+                    "quantidade": 1,
+                    "valor_unitario": 1199
+                },
+                "ide": {
+                    "codigo_item_integracao": "3a2174d8-4344-48c4-8ea3-0341f3"
+                }
+            }
+        ]
+    },
+    {
+        "cabecalho": {
+            "codigo_pedido_integracao": "aabe228d-175c-45d6-a9b2-486ed9ec8b80",
+            "codigo_cliente": 5601665831,
+            "data_previsao": "5/6/2023"
+        },
+        "informacoes_adicionais": {
+            "codigo_categoria": "1.01.03",
+            "codigo_conta_corrente": 5601665819
+        },
+        "det": [
+            {
+                "produto": {
+                    "codigo_produto": 5601666009,
+                    "quantidade": 1,
+                    "valor_unitario": 1399.9
+                },
+                "ide": {
+                    "codigo_item_integracao": "4208db23-4273-4c1c-bd56-91a436"
+                }
+            },
+            {
+                "produto": {
+                    "codigo_produto": 5601666015,
+                    "quantidade": 1,
+                    "valor_unitario": 1699.9
+                },
+                "ide": {
+                    "codigo_item_integracao": "a2f34009-599f-48fb-be51-1f879d"
+                }
+            },
+            {
+                "produto": {
+                    "codigo_produto": 5601666028,
+                    "quantidade": 1,
+                    "valor_unitario": 79.9
+                },
+                "ide": {
+                    "codigo_item_integracao": "e808aa98-18c7-4c78-b087-a0ba18"
+                }
+            },
+            {
+                "produto": {
+                    "codigo_produto": 5601666007,
+                    "quantidade": 1,
+                    "valor_unitario": 150
+                },
+                "ide": {
+                    "codigo_item_integracao": "a22eb95b-3b1a-441c-8d14-8204a7"
+                }
+            },
+            {
+                "produto": {
+                    "codigo_produto": 5601666013,
+                    "quantidade": 1,
+                    "valor_unitario": 1199
+                },
+                "ide": {
+                    "codigo_item_integracao": "f204b5d4-a9d0-485f-a374-99b49f"
+                }
+            }
+        ]
+    },
+    {
+        "cabecalho": {
+            "codigo_pedido_integracao": "9af3babf-4c44-4bcd-b897-7c09344707e4",
+            "codigo_cliente": 5601665831,
+            "data_previsao": "5/6/2023"
+        },
+        "informacoes_adicionais": {
+            "codigo_categoria": "1.02.02",
+            "codigo_conta_corrente": 5601665819
+        },
+        "det": [
+            {
+                "produto": {
+                    "codigo_produto": 5601666009,
+                    "quantidade": 1,
+                    "valor_unitario": 1399.9
+                },
+                "ide": {
+                    "codigo_item_integracao": "3d5f3b73-7d76-4dc6-a157-15d3f8"
+                }
+            },
+            {
+                "produto": {
+                    "codigo_produto": 5601666015,
+                    "quantidade": 1,
+                    "valor_unitario": 1699.9
+                },
+                "ide": {
+                    "codigo_item_integracao": "1263e1d2-76ac-40dc-8a1f-ca2328"
+                }
+            },
+            {
+                "produto": {
+                    "codigo_produto": 5601666028,
+                    "quantidade": 1,
+                    "valor_unitario": 79.9
+                },
+                "ide": {
+                    "codigo_item_integracao": "21bac4a4-9f8e-46de-920f-82f024"
+                }
+            },
+            {
+                "produto": {
+                    "codigo_produto": 5601666007,
+                    "quantidade": 1,
+                    "valor_unitario": 150
+                },
+                "ide": {
+                    "codigo_item_integracao": "802ddf0a-edc2-46a6-a3bf-3b575a"
+                }
+            },
+            {
+                "produto": {
+                    "codigo_produto": 5601666013,
+                    "quantidade": 1,
+                    "valor_unitario": 1199
+                },
+                "ide": {
+                    "codigo_item_integracao": "6f47da2a-3ef6-4d66-a595-45c650"
+                }
+            }
+        ]
+    },
+    {
+        "cabecalho": {
+            "codigo_pedido_integracao": "17ba440e-8c0d-4bf8-bcb2-f7a80480ae3b",
+            "codigo_cliente": 5601665831,
+            "data_previsao": "5/6/2023"
+        },
+        "informacoes_adicionais": {
+            "codigo_categoria": "1.03.03",
+            "codigo_conta_corrente": 5601665819
+        },
+        "det": [
+            {
+                "produto": {
+                    "codigo_produto": 5601666009,
+                    "quantidade": 1,
+                    "valor_unitario": 1399.9
+                },
+                "ide": {
+                    "codigo_item_integracao": "d5fba206-d935-441c-bb7e-d2b202"
+                }
+            },
+            {
+                "produto": {
+                    "codigo_produto": 5601666015,
+                    "quantidade": 1,
+                    "valor_unitario": 1699.9
+                },
+                "ide": {
+                    "codigo_item_integracao": "cf099319-75dd-46f5-93e5-e61433"
+                }
+            },
+            {
+                "produto": {
+                    "codigo_produto": 5601666028,
+                    "quantidade": 1,
+                    "valor_unitario": 79.9
+                },
+                "ide": {
+                    "codigo_item_integracao": "d8394b36-1df8-4f20-83c6-2136ab"
+                }
+            },
+            {
+                "produto": {
+                    "codigo_produto": 5601666007,
+                    "quantidade": 1,
+                    "valor_unitario": 150
+                },
+                "ide": {
+                    "codigo_item_integracao": "13e52422-c6a0-4bf1-9e4a-c70cdb"
+                }
+            },
+            {
+                "produto": {
+                    "codigo_produto": 5601666013,
+                    "quantidade": 1,
+                    "valor_unitario": 1199
+                },
+                "ide": {
+                    "codigo_item_integracao": "f4f88518-a9cc-4ad1-a79e-5baa42"
+                }
+            }
+        ]
+    },
+    {
+        "cabecalho": {
+            "codigo_pedido_integracao": "dfd68141-00fc-4375-a105-3c684a484981",
+            "codigo_cliente": 5601665831,
+            "data_previsao": "5/6/2023"
+        },
+        "informacoes_adicionais": {
+            "codigo_categoria": "2.01.03",
+            "codigo_conta_corrente": 5601665819
+        },
+        "det": [
+            {
+                "produto": {
+                    "codigo_produto": 5601666009,
+                    "quantidade": 1,
+                    "valor_unitario": 1399.9
+                },
+                "ide": {
+                    "codigo_item_integracao": "2e1b6816-ee4a-4db3-aeb8-9c6dce"
+                }
+            },
+            {
+                "produto": {
+                    "codigo_produto": 5601666015,
+                    "quantidade": 1,
+                    "valor_unitario": 1699.9
+                },
+                "ide": {
+                    "codigo_item_integracao": "bad21b34-a8e7-4615-9e98-7bbca1"
+                }
+            },
+            {
+                "produto": {
+                    "codigo_produto": 5601666028,
+                    "quantidade": 1,
+                    "valor_unitario": 79.9
+                },
+                "ide": {
+                    "codigo_item_integracao": "b8649def-bb40-4ca9-9664-a361ba"
+                }
+            },
+            {
+                "produto": {
+                    "codigo_produto": 5601666007,
+                    "quantidade": 1,
+                    "valor_unitario": 150
+                },
+                "ide": {
+                    "codigo_item_integracao": "d94585f0-bb5d-498f-9f0f-57f699"
+                }
+            },
+            {
+                "produto": {
+                    "codigo_produto": 5601666013,
+                    "quantidade": 1,
+                    "valor_unitario": 1199
+                },
+                "ide": {
+                    "codigo_item_integracao": "4b7fa68f-80c7-4b9b-a9d1-db5f06"
+                }
+            }
+        ]
+    },
+    {
+        "cabecalho": {
+            "codigo_pedido_integracao": "9b00a5a5-058b-4191-b0d0-7d4304d9ebfe",
+            "codigo_cliente": 5601665831,
+            "data_previsao": "5/6/2023"
+        },
+        "informacoes_adicionais": {
+            "codigo_categoria": "1.01.02",
+            "codigo_conta_corrente": 5601665819
+        },
+        "det": [
+            {
+                "produto": {
+                    "codigo_produto": 5601666009,
+                    "quantidade": 1,
+                    "valor_unitario": 1399.9
+                },
+                "ide": {
+                    "codigo_item_integracao": "ec23def1-19c4-4a64-b3f5-e5e135"
+                }
+            },
+            {
+                "produto": {
+                    "codigo_produto": 5601666015,
+                    "quantidade": 1,
+                    "valor_unitario": 1699.9
+                },
+                "ide": {
+                    "codigo_item_integracao": "a46b641d-5b5f-463d-ad14-a933ab"
+                }
+            },
+            {
+                "produto": {
+                    "codigo_produto": 5601666028,
+                    "quantidade": 1,
+                    "valor_unitario": 79.9
+                },
+                "ide": {
+                    "codigo_item_integracao": "1a39e7e0-ebec-40cf-98d5-8f1678"
+                }
+            },
+            {
+                "produto": {
+                    "codigo_produto": 5601666007,
+                    "quantidade": 1,
+                    "valor_unitario": 150
+                },
+                "ide": {
+                    "codigo_item_integracao": "721f7749-3b71-4f2d-82c8-689242"
+                }
+            },
+            {
+                "produto": {
+                    "codigo_produto": 5601666013,
+                    "quantidade": 1,
+                    "valor_unitario": 1199
+                },
+                "ide": {
+                    "codigo_item_integracao": "032c019f-1f15-4a3b-a6ff-1edec5"
+                }
+            }
+        ]
+    },
+    {
+        "cabecalho": {
+            "codigo_pedido_integracao": "43dd39da-81cb-4b0e-8d6a-f4a862ed46a9",
+            "codigo_cliente": 5601665831,
+            "data_previsao": "5/6/2023"
+        },
+        "informacoes_adicionais": {
+            "codigo_categoria": "1.04.02",
+            "codigo_conta_corrente": 5601665819
+        },
+        "det": [
+            {
+                "produto": {
+                    "codigo_produto": 5601666009,
+                    "quantidade": 1,
+                    "valor_unitario": 1399.9
+                },
+                "ide": {
+                    "codigo_item_integracao": "e8092d94-d13a-40c2-8e44-592e46"
+                }
+            },
+            {
+                "produto": {
+                    "codigo_produto": 5601666015,
+                    "quantidade": 1,
+                    "valor_unitario": 1699.9
+                },
+                "ide": {
+                    "codigo_item_integracao": "7c065a88-e8b0-41a5-84e7-6d8756"
+                }
+            },
+            {
+                "produto": {
+                    "codigo_produto": 5601666028,
+                    "quantidade": 1,
+                    "valor_unitario": 79.9
+                },
+                "ide": {
+                    "codigo_item_integracao": "afb3fe81-e51c-4647-ad79-7c4fff"
+                }
+            },
+            {
+                "produto": {
+                    "codigo_produto": 5601666007,
+                    "quantidade": 1,
+                    "valor_unitario": 150
+                },
+                "ide": {
+                    "codigo_item_integracao": "730ea921-02ce-43ee-8121-da8c2d"
+                }
+            },
+            {
+                "produto": {
+                    "codigo_produto": 5601666013,
+                    "quantidade": 1,
+                    "valor_unitario": 1199
+                },
+                "ide": {
+                    "codigo_item_integracao": "3690feea-8413-4d85-8924-114024"
+                }
+            }
+        ]
+    },
+    {
+        "cabecalho": {
+            "codigo_pedido_integracao": "95246168-0911-427b-9253-9689bb56919f",
+            "codigo_cliente": 5601665831,
+            "data_previsao": "5/6/2023"
+        },
+        "informacoes_adicionais": {
+            "codigo_categoria": "1.04.06",
+            "codigo_conta_corrente": 5601665819
+        },
+        "det": [
+            {
+                "produto": {
+                    "codigo_produto": 5601666009,
+                    "quantidade": 1,
+                    "valor_unitario": 1399.9
+                },
+                "ide": {
+                    "codigo_item_integracao": "b7a34c66-c683-4c30-8a04-7e10ea"
+                }
+            },
+            {
+                "produto": {
+                    "codigo_produto": 5601666015,
+                    "quantidade": 1,
+                    "valor_unitario": 1699.9
+                },
+                "ide": {
+                    "codigo_item_integracao": "504d83ab-89ca-4b07-ad25-b61fb7"
+                }
+            },
+            {
+                "produto": {
+                    "codigo_produto": 5601666028,
+                    "quantidade": 1,
+                    "valor_unitario": 79.9
+                },
+                "ide": {
+                    "codigo_item_integracao": "364188bc-8cc6-4ecb-adc0-fbbba9"
+                }
+            },
+            {
+                "produto": {
+                    "codigo_produto": 5601666007,
+                    "quantidade": 1,
+                    "valor_unitario": 150
+                },
+                "ide": {
+                    "codigo_item_integracao": "67bc4945-79f1-4a57-b86d-07fe2e"
+                }
+            },
+            {
+                "produto": {
+                    "codigo_produto": 5601666013,
+                    "quantidade": 1,
+                    "valor_unitario": 1199
+                },
+                "ide": {
+                    "codigo_item_integracao": "bb513706-8c33-4e8a-be6e-9e1d1b"
+                }
+            }
+        ]
+    },
+    {
+        "cabecalho": {
+            "codigo_pedido_integracao": "65a1ee22-c2f5-4bba-ba7b-6fdb25a4770b",
+            "codigo_cliente": 5601665831,
+            "data_previsao": "5/6/2023"
+        },
+        "informacoes_adicionais": {
+            "codigo_categoria": "2.02.01",
+            "codigo_conta_corrente": 5601665819
+        },
+        "det": [
+            {
+                "produto": {
+                    "codigo_produto": 5601666009,
+                    "quantidade": 1,
+                    "valor_unitario": 1399.9
+                },
+                "ide": {
+                    "codigo_item_integracao": "d37595e7-1036-46e0-8a24-9faaef"
+                }
+            },
+            {
+                "produto": {
+                    "codigo_produto": 5601666015,
+                    "quantidade": 1,
+                    "valor_unitario": 1699.9
+                },
+                "ide": {
+                    "codigo_item_integracao": "cffdb271-5c64-4ff1-9543-916860"
+                }
+            },
+            {
+                "produto": {
+                    "codigo_produto": 5601666028,
+                    "quantidade": 1,
+                    "valor_unitario": 79.9
+                },
+                "ide": {
+                    "codigo_item_integracao": "f0a4accb-e2cf-4b5f-a6d3-bc7631"
+                }
+            },
+            {
+                "produto": {
+                    "codigo_produto": 5601666007,
+                    "quantidade": 1,
+                    "valor_unitario": 150
+                },
+                "ide": {
+                    "codigo_item_integracao": "af5340f7-67ea-4d67-8ea2-315fa2"
+                }
+            },
+            {
+                "produto": {
+                    "codigo_produto": 5601666013,
+                    "quantidade": 1,
+                    "valor_unitario": 1199
+                },
+                "ide": {
+                    "codigo_item_integracao": "86ce7cee-0843-4f70-b24d-ebf158"
+                }
+            }
+        ]
+    },
+    {
+        "cabecalho": {
+            "codigo_pedido_integracao": "89d30616-028f-4fdb-8072-109faed478e3",
+            "codigo_cliente": 5601665831,
+            "data_previsao": "5/6/2023"
+        },
+        "informacoes_adicionais": {
+            "codigo_categoria": "2.01.04",
+            "codigo_conta_corrente": 5601665819
+        },
+        "det": [
+            {
+                "produto": {
+                    "codigo_produto": 5601666009,
+                    "quantidade": 1,
+                    "valor_unitario": 1399.9
+                },
+                "ide": {
+                    "codigo_item_integracao": "7a3e6559-f21d-4d86-b9fa-327610"
+                }
+            },
+            {
+                "produto": {
+                    "codigo_produto": 5601666015,
+                    "quantidade": 1,
+                    "valor_unitario": 1699.9
+                },
+                "ide": {
+                    "codigo_item_integracao": "fa4d9d97-8dac-4c1b-bcc0-97029f"
+                }
+            },
+            {
+                "produto": {
+                    "codigo_produto": 5601666028,
+                    "quantidade": 1,
+                    "valor_unitario": 79.9
+                },
+                "ide": {
+                    "codigo_item_integracao": "4196e572-4fbe-4cf3-b7cc-9d6620"
+                }
+            },
+            {
+                "produto": {
+                    "codigo_produto": 5601666007,
+                    "quantidade": 1,
+                    "valor_unitario": 150
+                },
+                "ide": {
+                    "codigo_item_integracao": "07a395da-8713-4a8c-8045-f3dba9"
+                }
+            },
+            {
+                "produto": {
+                    "codigo_produto": 5601666013,
+                    "quantidade": 1,
+                    "valor_unitario": 1199
+                },
+                "ide": {
+                    "codigo_item_integracao": "35cfdfe6-3331-4faf-adc0-8308a8"
+                }
+            }
+        ]
+    },
+    {
+        "cabecalho": {
+            "codigo_pedido_integracao": "c38cfb8a-8b63-4c72-992d-39bad0c65249",
+            "codigo_cliente": 5601665831,
+            "data_previsao": "5/6/2023"
+        },
+        "informacoes_adicionais": {
+            "codigo_categoria": "1.03.01",
+            "codigo_conta_corrente": 5601665819
+        },
+        "det": [
+            {
+                "produto": {
+                    "codigo_produto": 5601666009,
+                    "quantidade": 1,
+                    "valor_unitario": 1399.9
+                },
+                "ide": {
+                    "codigo_item_integracao": "7a0371f2-046f-4a35-b87f-ef3663"
+                }
+            },
+            {
+                "produto": {
+                    "codigo_produto": 5601666015,
+                    "quantidade": 1,
+                    "valor_unitario": 1699.9
+                },
+                "ide": {
+                    "codigo_item_integracao": "fd055bf0-51d3-4c36-828f-499bb1"
+                }
+            },
+            {
+                "produto": {
+                    "codigo_produto": 5601666028,
+                    "quantidade": 1,
+                    "valor_unitario": 79.9
+                },
+                "ide": {
+                    "codigo_item_integracao": "7a1f9874-5c38-4d08-bf51-7208c0"
+                }
+            },
+            {
+                "produto": {
+                    "codigo_produto": 5601666007,
+                    "quantidade": 1,
+                    "valor_unitario": 150
+                },
+                "ide": {
+                    "codigo_item_integracao": "e7b7787d-824c-4230-b5ae-90685c"
+                }
+            },
+            {
+                "produto": {
+                    "codigo_produto": 5601666013,
+                    "quantidade": 1,
+                    "valor_unitario": 1199
+                },
+                "ide": {
+                    "codigo_item_integracao": "014f4cc8-cfaf-4dc5-b3ba-b6ad4a"
+                }
+            }
+        ]
+    },
+    {
+        "cabecalho": {
+            "codigo_pedido_integracao": "b6891d3d-b091-4664-8966-a8420636242a",
+            "codigo_cliente": 5601665831,
+            "data_previsao": "5/6/2023"
+        },
+        "informacoes_adicionais": {
+            "codigo_categoria": "2.01.01",
+            "codigo_conta_corrente": 5601665819
+        },
+        "det": [
+            {
+                "produto": {
+                    "codigo_produto": 5601666009,
+                    "quantidade": 1,
+                    "valor_unitario": 1399.9
+                },
+                "ide": {
+                    "codigo_item_integracao": "3213cee4-aa08-4440-a5fc-4476ac"
+                }
+            },
+            {
+                "produto": {
+                    "codigo_produto": 5601666015,
+                    "quantidade": 1,
+                    "valor_unitario": 1699.9
+                },
+                "ide": {
+                    "codigo_item_integracao": "1fdd9c55-e306-4190-bda0-5b22c5"
+                }
+            },
+            {
+                "produto": {
+                    "codigo_produto": 5601666028,
+                    "quantidade": 1,
+                    "valor_unitario": 79.9
+                },
+                "ide": {
+                    "codigo_item_integracao": "7ea6dda6-f8bc-4bfc-937f-0e9fa8"
+                }
+            },
+            {
+                "produto": {
+                    "codigo_produto": 5601666007,
+                    "quantidade": 1,
+                    "valor_unitario": 150
+                },
+                "ide": {
+                    "codigo_item_integracao": "3df62fd6-22b4-46c8-a500-426052"
+                }
+            },
+            {
+                "produto": {
+                    "codigo_produto": 5601666013,
+                    "quantidade": 1,
+                    "valor_unitario": 1199
+                },
+                "ide": {
+                    "codigo_item_integracao": "aa7705cb-fa74-4726-8d56-7b73ef"
+                }
+            }
+        ]
+    },
+    {
+        "cabecalho": {
+            "codigo_pedido_integracao": "b44573ec-36c3-4568-862b-41e112f1b3de",
+            "codigo_cliente": 5601665831,
+            "data_previsao": "5/6/2023"
+        },
+        "informacoes_adicionais": {
+            "codigo_categoria": "1.04.01",
+            "codigo_conta_corrente": 5601665819
+        },
+        "det": [
+            {
+                "produto": {
+                    "codigo_produto": 5601666009,
+                    "quantidade": 1,
+                    "valor_unitario": 1399.9
+                },
+                "ide": {
+                    "codigo_item_integracao": "c08e7874-8ecb-4fd9-9341-5b35a4"
+                }
+            },
+            {
+                "produto": {
+                    "codigo_produto": 5601666015,
+                    "quantidade": 1,
+                    "valor_unitario": 1699.9
+                },
+                "ide": {
+                    "codigo_item_integracao": "1a827f36-b763-404f-917e-e0c71c"
+                }
+            },
+            {
+                "produto": {
+                    "codigo_produto": 5601666028,
+                    "quantidade": 1,
+                    "valor_unitario": 79.9
+                },
+                "ide": {
+                    "codigo_item_integracao": "8e6bfb01-e4a3-4d41-a001-3d8847"
+                }
+            },
+            {
+                "produto": {
+                    "codigo_produto": 5601666007,
+                    "quantidade": 1,
+                    "valor_unitario": 150
+                },
+                "ide": {
+                    "codigo_item_integracao": "de911237-0944-40ff-9cad-18bfc0"
+                }
+            },
+            {
+                "produto": {
+                    "codigo_produto": 5601666013,
+                    "quantidade": 1,
+                    "valor_unitario": 1199
+                },
+                "ide": {
+                    "codigo_item_integracao": "585a03ec-83ba-45d9-9f86-3e29ef"
+                }
+            }
+        ]
+    },
+    {
+        "cabecalho": {
+            "codigo_pedido_integracao": "00a1eec2-c1ad-43e1-ab3e-c9c49989c402",
+            "codigo_cliente": 5601665831,
+            "data_previsao": "5/6/2023"
+        },
+        "informacoes_adicionais": {
+            "codigo_categoria": "1.03.02",
+            "codigo_conta_corrente": 5601665819
+        },
+        "det": [
+            {
+                "produto": {
+                    "codigo_produto": 5601666009,
+                    "quantidade": 1,
+                    "valor_unitario": 1399.9
+                },
+                "ide": {
+                    "codigo_item_integracao": "591e3c03-e63c-4a05-81f8-7e3e26"
+                }
+            },
+            {
+                "produto": {
+                    "codigo_produto": 5601666015,
+                    "quantidade": 1,
+                    "valor_unitario": 1699.9
+                },
+                "ide": {
+                    "codigo_item_integracao": "785f7b2a-0916-4204-beb2-854727"
+                }
+            },
+            {
+                "produto": {
+                    "codigo_produto": 5601666028,
+                    "quantidade": 1,
+                    "valor_unitario": 79.9
+                },
+                "ide": {
+                    "codigo_item_integracao": "270df6b4-4a69-475e-a951-042bf4"
+                }
+            },
+            {
+                "produto": {
+                    "codigo_produto": 5601666007,
+                    "quantidade": 1,
+                    "valor_unitario": 150
+                },
+                "ide": {
+                    "codigo_item_integracao": "862068ab-d0aa-4766-8aef-a00bce"
+                }
+            },
+            {
+                "produto": {
+                    "codigo_produto": 5601666013,
+                    "quantidade": 1,
+                    "valor_unitario": 1199
+                },
+                "ide": {
+                    "codigo_item_integracao": "f12a833d-fbed-4524-af98-39a208"
+                }
+            }
+        ]
+    },
+    {
+        "cabecalho": {
+            "codigo_pedido_integracao": "7111f59b-2ae4-415c-ac41-57235fa93237",
+            "codigo_cliente": 5601665831,
+            "data_previsao": "5/6/2023"
+        },
+        "informacoes_adicionais": {
+            "codigo_categoria": "1.03.04",
+            "codigo_conta_corrente": 5601665819
+        },
+        "det": [
+            {
+                "produto": {
+                    "codigo_produto": 5601666009,
+                    "quantidade": 1,
+                    "valor_unitario": 1399.9
+                },
+                "ide": {
+                    "codigo_item_integracao": "c4d2032d-abca-4a22-8bf1-36dd04"
+                }
+            },
+            {
+                "produto": {
+                    "codigo_produto": 5601666015,
+                    "quantidade": 1,
+                    "valor_unitario": 1699.9
+                },
+                "ide": {
+                    "codigo_item_integracao": "57b6d344-15a1-4976-bd20-d9d526"
+                }
+            },
+            {
+                "produto": {
+                    "codigo_produto": 5601666028,
+                    "quantidade": 1,
+                    "valor_unitario": 79.9
+                },
+                "ide": {
+                    "codigo_item_integracao": "f056440b-8eca-4b33-b070-b27fcc"
+                }
+            },
+            {
+                "produto": {
+                    "codigo_produto": 5601666007,
+                    "quantidade": 1,
+                    "valor_unitario": 150
+                },
+                "ide": {
+                    "codigo_item_integracao": "4bfeac88-7aff-419e-8979-7d6ebd"
+                }
+            },
+            {
+                "produto": {
+                    "codigo_produto": 5601666013,
+                    "quantidade": 1,
+                    "valor_unitario": 1199
+                },
+                "ide": {
+                    "codigo_item_integracao": "4838ef15-7d30-4bf8-b0eb-80e775"
+                }
+            }
+        ]
+    },
+    {
+        "cabecalho": {
+            "codigo_pedido_integracao": "bf8f33e6-30f0-4942-a51b-ee4774427278",
+            "codigo_cliente": 5601665831,
+            "data_previsao": "5/6/2023"
+        },
+        "informacoes_adicionais": {
+            "codigo_categoria": "1.04.03",
+            "codigo_conta_corrente": 5601665819
+        },
+        "det": [
+            {
+                "produto": {
+                    "codigo_produto": 5601666009,
+                    "quantidade": 1,
+                    "valor_unitario": 1399.9
+                },
+                "ide": {
+                    "codigo_item_integracao": "f1770646-e74d-4ce7-905e-04e95b"
+                }
+            },
+            {
+                "produto": {
+                    "codigo_produto": 5601666015,
+                    "quantidade": 1,
+                    "valor_unitario": 1699.9
+                },
+                "ide": {
+                    "codigo_item_integracao": "5bdf0d3a-19ba-4691-96db-de9759"
+                }
+            },
+            {
+                "produto": {
+                    "codigo_produto": 5601666028,
+                    "quantidade": 1,
+                    "valor_unitario": 79.9
+                },
+                "ide": {
+                    "codigo_item_integracao": "4ae3ca8c-81ea-434d-b31b-f779a2"
+                }
+            },
+            {
+                "produto": {
+                    "codigo_produto": 5601666007,
+                    "quantidade": 1,
+                    "valor_unitario": 150
+                },
+                "ide": {
+                    "codigo_item_integracao": "8d343312-f577-4c4f-8e7b-e2830f"
+                }
+            },
+            {
+                "produto": {
+                    "codigo_produto": 5601666013,
+                    "quantidade": 1,
+                    "valor_unitario": 1199
+                },
+                "ide": {
+                    "codigo_item_integracao": "975add55-f2b1-49d2-9d83-3cc9e7"
+                }
+            }
+        ]
+    }
+]
