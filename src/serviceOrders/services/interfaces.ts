@@ -1,5 +1,9 @@
 import { DefaultResponseList, DefaultListRequestI } from "../../interfaces";
 
+export interface ResponseServiceList extends DefaultResponseList{
+    cadastros:Service[];
+}
+
 export interface ServiceRequestList extends DefaultListRequestI {
   filtrar_apenas_descricao?: string; // Busca igual LIKE SQL "%TESTE"
 }
@@ -26,9 +30,4 @@ interface CabecalhoI {
 export interface Service {
   intListar: IntListI; //Dados da integração do serviço.
   cabecalho: CabecalhoI;  //Dados do Serviço.
-  // descricao	descricao	Descrição do Serviço.
-  // impostos	impostos	Impostos e Retenções do serviço.
-  // info	info	Dados da registro.
-  // produtosUtilizados	produtosUtilizados	Produtos Utilizados no serviço.
-  // viaUnica	viaUnica	NF Via Única (Modelo 21 e 22)
 }

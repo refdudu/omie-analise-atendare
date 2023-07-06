@@ -43,21 +43,21 @@ const _deleteOrder = async (codigo_pedido: number) => {
   });
 };
 
-async function deleteOrders() {
-  const orders = await _listOrder({ pagina: 1 });
-  if (!orders) return;
-  const codes = orders.pedido_venda_produto.map(
-    ({ cabecalho }) => cabecalho.codigo_pedido
-  );
+// async function deleteOrders() {
+//   const orders = await _listOrder({ pagina: 1 });
+//   if (!orders) return;
+//   const codes = orders.pedido_venda_produto.map(
+//     ({ cabecalho }) => cabecalho.codigo_pedido
+//   );
 
-  codes.forEach((code, index) => {
-    if (code)
-      setTimeout(async () => {
-        const data = await _deleteOrder(code);
-        console.log(data);
-      }, 1000 * 3 * index);
-  });
-}
+//   codes.forEach((code, index) => {
+//     if (code)
+//       setTimeout(async () => {
+//         const data = await _deleteOrder(code);
+//         console.log(data);
+//       }, 1000 * 3 * index);
+//   });
+// }
 
 async function _default() {
   //   deleteOrders();

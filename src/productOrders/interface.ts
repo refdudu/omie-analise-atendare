@@ -1,30 +1,18 @@
 import { DefaultResponseList } from "../interfaces";
 
 export interface OrderResponseList extends DefaultResponseList {
-  pedido_venda_produto: Order[];
+  pedido_venda_produto: VendaProduto[];
 }
 
-export interface Order {
+export interface VendaProduto {
   cabecalho: OrderHeader; //	Informações do cabeçalho do pedido.+
   det: OrderDet[]; //	Dados da Aba 'Itens da Venda' do Pedido de Venda.+
-  // departamentos	departamentosArray	Dados da Aba "Departamentos" do Pedido de Venda.
-  // frete	frete	Dados da Aba 'Frete e Outras Despesas' do Pedido de Venda.+
   informacoes_adicionais: OrderAdditionalInfo; //	Dados da Aba 'Informações Adicionais' do Pedido de Venda.+
-  // lista_parcelas	lista_parcelas	Dados da Aba 'Parcelas' do Pedido de Venda.+
-  // observacoes	observacoes	Dados da Aba 'Observações' do Pedido de Venda.+
-  // market_place	market_place	Dados para o Market Place.
-  // total_pedido	total_pedido	Valores totais do pedido.+
-  // infoCadastro	infoCadastro	Informações complementares do pedido.+
-  // exportacao	exportacao	Dados da exportacao
 }
 
 export interface OrderDet {
   produto?: OrderProduct; //	Identificação do Produto do Item do Pedido de Vendas.+
   ide: OrderIDE;
-  // observacao	observacao	Dados da aba 'Observações' do Item do Pedido de Vendas.+
-  // imposto	imposto	Informações referentes aos impostos do Item do Pedido de Vendas.+
-  // rastreabilidade	rastreabilidade	Dados da rastreabilidade do produto.
-  // combustivel	combustivel	Detalhamento específico de Combustível.
 }
 
 export interface OrderIDE {
@@ -33,7 +21,6 @@ export interface OrderIDE {
   simples_nacional?: string; //Indica que a empresa é Optante pelo Simples Nacional.+
   acao_item?: string; //Ação para o item.+
   id_ordem_producao?: number; //	Id da Ordem de Produção.+
-  regra_impostos?: number; //	DEPRECATED
 }
 
 export interface OrderHeader {
@@ -51,8 +38,6 @@ export interface OrderHeader {
   codigo_cenario_impostos?: number; //	Código do Cenário de Impostos.+
   bloqueado?: string; //	Pedido Bloqueado pela API.+
   importado_api?: string; //	Importado pela API.+
-  codigo_empresa?: number; //	DEPRECATED
-  codigo_empresa_integracao?: string; //	DEPRECATED
   tipo_desconto_pedido?: string; //	Tipo de desconto para o pedido.+
   perc_desconto_pedido?: number; //	Percentual do desconto do pedido.+
   valor_desconto_pedido?: number; //	Valor do desconto do pedido.+

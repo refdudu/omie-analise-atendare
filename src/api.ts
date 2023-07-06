@@ -36,7 +36,9 @@ export async function api<T>({
 
     return data;
   } catch (error) {
-    console.error('----------------------------------------');
+    console.error("----------------------------------------");
+    console.error(error.config.url);
+    console.error(error.config.data);
     console.error(error.response.data);
     console.error("Erro");
   }

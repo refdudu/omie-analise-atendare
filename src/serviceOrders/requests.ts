@@ -5,6 +5,8 @@ import { randomUUID } from "crypto";
 import { ClientsRequests } from "../clients/requests";
 import { CategoriesRequests } from "../categories/request";
 import { CheckingAccountRequests } from "../checkingAccount/request";
+import { CitiesRequests } from "./cities/request";
+import { ServicesRequests } from "./services/requests";
 
 const url = "servicos/os/";
 const _createOrder = (body: ServiceOrderI) => {
@@ -44,7 +46,6 @@ const main = async () => {
     email: "renanfischer@atendare.com",
     cnpj_cpf: "05390608011",
   });
-  console.log(client);
   if (!client) return;
 
   const date = new Date();
@@ -54,11 +55,19 @@ const main = async () => {
 
   const categories = await CategoriesRequests.getCategories();
   if (!categories) return;
-  const [category] = categories;
+
+  const cities = await CitiesRequests._listCities({ pagina: 1 });
+  if (!cities) return;
 
   const checkingAccounts = await CheckingAccountRequests.getCheckingAccounts();
   if (!checkingAccounts) return;
+
+  const [category] = categories;
   const [checkingAccount] = checkingAccounts;
+  const [city] = cities.lista_cidades;
+
+  const services = await ServicesRequests._listServices({ pagina: 1 });
+  if (!services) return;
 
   const createdOrderService = await _createOrder({
     Cabecalho: {
@@ -71,9 +80,15 @@ const main = async () => {
     InformacoesAdicionais: {
       cCodCateg: category.codigo,
       nCodCC: checkingAccount.nCodCC,
-
-      cCidPrestServ: "",
+      cCidPrestServ: city.cCod,
     },
+    ServicosPrestados: services.cadastros.map(
+      ({ cabecalho: { nPrecoUnit }, intListar: { nCodServ } }) => ({
+        nCodServico: nCodServ,
+        nQtde: 1,
+        nValUnit: nPrecoUnit || 100,
+      })
+    ),
   });
   if (createdOrderService) console.log(createdOrderService);
 };

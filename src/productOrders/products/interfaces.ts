@@ -57,15 +57,4 @@ export interface Product {
   inativo?: string; //	Indica se o cadastro do produto está inativo (S/N).+
   lead_time?: number; //	Lead Time médio de ressuprimento em dias.
   origem_imposto?: string; //	Origem do Imposto+
-  // imagens	imagensArray	Lista de imagens do produto.
-  // videos	videosArray	Lista de videos do produto.
-  // caracteristicas	caracteristicasArray	lista de caracteristicas do produto.
-  // tabelas_preco	tabelas_precoArray	Lista de tabelas de preço.
-  // info	info	Informações complemetares do cadastro do produto.
-  // medicamento	medicamento	Detalhamento específico para cadastro de medicamentos+
-  // combustivel	combustivel	Detalhamento específico para cadastro de combustíveis.+
-  // veiculo	veiculo	Detalhamento específico para cadastro de veículos+
-  // armamento	armamento	Detalhamento especifco para cadastro de armamentos.+
-  // dadosIbpt	dadosIbpt	Dados do IBPT.+
-  // componentes_kit	componentes_kitArray	Componetes do KIT.
 }

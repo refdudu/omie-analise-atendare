@@ -1,14 +1,33 @@
 export interface ServiceOrderI {
   Cabecalho: CabecalhoI; //	Cabeçalho da Ordem de Serviço
   InformacoesAdicionais: InformacoesAdicionaisI; //	Informações adicionais da OS
-  // Email	Email	Informações do E-Mail
-  // Departamentos	DepartamentosArray	Lista de distribuição por departamentos
-  // ServicosPrestados	ServicosPrestadosArray	Lista de Serviços Prestados
-  // Parcelas	ParcelasArray	Permite que o parcelamento seja realizado de forma manual.
-  // Observacoes	Observacoes	Observações da Ordem de Serviço
-  // InfoCadastro	InfoCadastro	Informações do cadastro da Ordem de Serviço.
-  // despesasReembolsaveis	despesasReembolsaveis	Despesas reembolsáveis.
-  // produtosUtilizados	produtosUtilizados	Produtos Utilizados na Ordem de Serviço.
+  ServicosPrestados: ServicosPrestadosI[]; //	Lista de Serviços Prestados
+}
+
+interface ServicosPrestadosI {
+  nCodServico?: number; //	Código Interno do Serviço conforme cadastrado na tabela de serviços.+
+  cCodIntServico?: string; //	Código de Integração do Serviço conforme cadastrado na tabela de serviços.+
+  cTribServ?: string; //	Tipo de Tributação dos Serviços.+
+  cCodServMun?: string; //	Código do Serviço Municipal ou CNAE.+
+  cCodServLC116?: string; //	Código do Serviço conforme Lei Complementar (LC 116).+
+  nQtde?: number; //	Quantidade de serviços.+
+  nValUnit?: number; //	Valor Unitário do serviço.+
+  cTpDesconto?: string; //	Tipo de Desconto.+
+  nValorDesconto?: number; //	Valor do Desconto.+
+  nAliqDesconto?: number; //	Aliquota do Desconto.+
+  nValorOutrasRetencoes?: number; //	Valor de Outras Retenções.+
+  nValorAcrescimos?: number; //	Valor de Acréscimos e taxas.+
+  cDescServ?: string; //	Descrição dos Serviços.+
+  cRetemISS?: string; //	Retem ISS (S/N)+
+  cDadosAdicItem?: string; //	Dados adicionais do Item.+
+  cNbs?: string; //	Código da Nomenclatura Brasileira de Serviços (NBS).+
+  // impostos	impostos	Dados do impostos do serviço.+
+  cNaoGerarFinanceiro?: string; //	Não gerar conta a receber para este item.+
+  cCodCategItem?: string; //	Código da Categoria.+
+  nSeqItem?: number; //	Sequencia do Item+
+  nIdItem?: number; //	ID do Item da Ordem de Serviço.+
+  cAcaoItem?: string; //	Ação a ser realizada na alteração do item.+
+  // viaUnica	viaUnica	Informações referente ao serviço de NF modelo 21 ou 22.+
 }
 
 interface CabecalhoI {
@@ -28,8 +47,10 @@ interface CabecalhoI {
   nCodCtr?: number; //	Código do Contrato.+
 }
 interface InformacoesAdicionaisI {
-  cCodCateg?: string; //	Categoria
-  nCodCC?: number; //	Código da Conta Corrente
+  cCodCateg: string; //	Categoria
+  nCodCC: number; //	Código da Conta Corrente
+  cCidPrestServ: string; //	Cidade da Prestação do Serviço
+
   cNumPedido?: string; //	Número do Pedido do Cliente
   cNumContrato?: string; //	Número do Contrato de Venda
   cContato?: string; //	Contato
@@ -37,7 +58,6 @@ interface InformacoesAdicionaisI {
   cCodObra?: string; //	Código da Obra
   cCodART?: string; //	Código ART
   nCodProj?: number; //	Código do Projeto
-  cCidPrestServ?: string; //	Cidade da Prestação do Serviço
   dDataRps?: string; //	Data da RPS
   cNumRecibo?: string; //	Número do Recibo gerado.+
 }
