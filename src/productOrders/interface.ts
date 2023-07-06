@@ -1,10 +1,10 @@
 import { DefaultResponseList } from "../interfaces";
 
 export interface OrderResponseList extends DefaultResponseList {
-  pedido_venda_produto: VendaProduto[];
+  pedido_venda_produto: Order[];
 }
 
-export interface VendaProduto {
+export interface Order {
   cabecalho: OrderHeader; //	Informações do cabeçalho do pedido.+
   det: OrderDet[]; //	Dados da Aba 'Itens da Venda' do Pedido de Venda.+
   informacoes_adicionais: OrderAdditionalInfo; //	Dados da Aba 'Informações Adicionais' do Pedido de Venda.+
